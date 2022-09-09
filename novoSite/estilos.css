@@ -1,0 +1,100 @@
+body {
+    background-color: #5CDB7C;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    margin: 50px 120px;
+    justify-content: space-around;
+    background-color: #66498F;
+    height: 50px;
+    font-size: 26px;
+    border-radius: 20px;
+}
+
+.nav_item {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: #DB9437;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.nav_item:hover { 
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 50px;
+    transition: all ease 0.3s;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    
+
+}
+
+.principal {
+    margin: 50px 0;
+    background: white;
+    padding: 10px;
+}
+
+.principal h1 {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0px 10px;
+
+}
+
+.principal p {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    text-indent: 30px;
+    margin: 25px 180px 25px;
+    padding: 5px;
+}
+
+.imagem_1 {
+
+    width: 240px;
+    margin: 15px;
+    
+}
+
+.imagem_2 {
+
+    width: 620px;
+    margin: 15px;
+    
+}
+
+.imagem_1:hover {
+    -webkit-transform: scale(1.2);
+   transform: scale(1.2);
+   transition: all ease 0.3s;
+}
+
+.imagem_2:hover {
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+   transition: all ease 0.3s;
+}
+
+.div_imagem_principal {
+    text-align: center;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+footer p {
+    margin: 10px;
+}
+
